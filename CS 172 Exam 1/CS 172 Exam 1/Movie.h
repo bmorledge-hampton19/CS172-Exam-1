@@ -1,5 +1,8 @@
 #pragma once
 
+// I affirm that all code given below was written solely by me, Ben Morledge-Hampton,
+// and that any help I received adhered to the rules stated for this exam.
+
 // Pre-Processor Directives
 #include <string>
 using namespace std;
