@@ -45,6 +45,9 @@ string Theater::GetMovieForHour(int Hour)
 	int closestHour = 24; // Keeps track of the movie that shows closest to the given hour.
 	int closestHourID; // Keeps track of the index of the movie with the closestHour value.
 
+	// Make sure the user has input a valid hour (between 0 and 23, inclusive)
+	if (!(Hour <= 23 && Hour >= 0)) return "";
+
 	// Run a for loop to check every movie for the soonest showing time after or on the given hour.
 
 	for (int i = 0; i < NumberOfMovies; i++) {

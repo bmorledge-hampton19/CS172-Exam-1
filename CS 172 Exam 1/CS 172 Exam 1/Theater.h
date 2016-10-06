@@ -23,7 +23,7 @@ public:
 
 	bool AddMovie(Movie& newMovie); // Add a Movie object to Movies[] and return true if there is not another movie showing at the same time.  Else returns false.
 	string GetMovieForHour(int Hour); // Return the title of the movie showing at or after the time "hour".
-										// Return "" if no movies are upcoming.
+										// Return "" if no movies are upcoming, or an invalid hour is given. (Hours between 0 and 23 inclusive are consdired valid.)
 	
 	int GetShowTimeForGenre(string Genre);// Return the hour that the earliest movie of the given genre will show.
 											// Return -1 if no movie of the given genre is being shown.

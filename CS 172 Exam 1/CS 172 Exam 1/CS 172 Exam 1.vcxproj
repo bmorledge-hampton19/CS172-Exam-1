@@ -146,6 +146,7 @@
     <ClInclude Include="Theater.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Movie.cpp" />
     <ClCompile Include="Theater.cpp" />
   </ItemGroup>
